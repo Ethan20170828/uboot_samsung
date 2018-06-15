@@ -1,0 +1,8 @@
+---- lowlevel_init Matches (6 in 4 files) ----
+Init.s (c:\winshare\s5pv210\uboot\android_uboot_smdkv210\u-boot-samsung-dev\onenand_bl1\smdkc110):lowlevel_init:
+lowlevel_init.S (c:\winshare\s5pv210\uboot\android_uboot_smdkv210\u-boot-samsung-dev\board\samsung\smdkc110):	.globl lowlevel_init
+lowlevel_init.S (c:\winshare\s5pv210\uboot\android_uboot_smdkv210\u-boot-samsung-dev\board\samsung\smdkc110):lowlevel_init:
+low_levelinit.S (c:\winshare\s5pv210\uboot\android_uboot_smdkv210\u-boot-samsung-dev\onenand_ipl\board\apollon):.globl lowlevel_init
+low_levelinit.S (c:\winshare\s5pv210\uboot\android_uboot_smdkv210\u-boot-samsung-dev\onenand_ipl\board\apollon):lowlevel_init:
+start.S (c:\winshare\s5pv210\uboot\android_uboot_smdkv210\u-boot-samsung-dev\cpu\s5pc11x):	bl	lowlevel_init	/* go setup pll,mux,memory */
+---- fb_init Matches (0 in 0 files) ----
